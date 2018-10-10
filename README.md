@@ -46,7 +46,8 @@ product1info = mainDB.getinfo("productname")
  
 **복수 추가**
 ```
-mainDB.additems(stream.txt)
+items = JSONTOOL.createitems("stream.txt")
+mainDB.additems(items)
 ```
 
 **stream.txt**
