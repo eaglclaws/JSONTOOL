@@ -1,9 +1,9 @@
 # JSONTOOL
 JSON 파일을 수정하고 불러오는 함수를 정리한 모듈
 
-##사용 방법
+## 사용 방법
 
-###초기화
+### 초기화
 
 JSONTOOL은 ProductDatabase 인스턴스를 이용하여 JSON 파일을 수정 및 불러오기르 합니다. 사용은 다음과 같이 합니다.
 ```
@@ -12,7 +12,7 @@ mainDB = ProductDatabase("DB.json")
 ```
 ProductDatabase의 생성자는 사용하 JSON 파일명을 매개변수로 받습니다.
 
-###제품 정보 열람
+### 제품 정보 열람
 
 데이터베이스에 저장되어 있는 정보를 열람하 수 있습니다.
 
@@ -32,7 +32,7 @@ product1info = mainDB.getinfo("productname")
  product1laundryinfo = mainDB.getinfo("productname", "laundry")
  ```
  
- ###데이터 수정
+ ### 데이터 수정
  
  **단일 추가**
  ```
