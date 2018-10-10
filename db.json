@@ -1,0 +1,65 @@
+{
+    "shampoo": {
+        "name": "shampoo",
+        "info": {
+            "manufacturer": "beautycorp",
+            "price": 1200,
+            "laundry": null,
+            "allergens": [
+                "non-basic",
+                "citrus"
+            ]
+        }
+    },
+    "clothes": {
+        "name": "clothes",
+        "info": {
+            "manufacturer": "competecorp",
+            "price": 200000,
+            "laundry": [
+                "code1",
+                "code2"
+            ],
+            "allergens": null
+        }
+    },
+    "iPhone": {
+        "name": "iPhone",
+        "info": {
+            "manufacturer": "Apple",
+            "price": 900,
+            "laundry": null,
+            "allergens": null
+        }
+    },
+    "help": {
+        "info": {
+            "manufacturer": "Inc",
+            "price": "200",
+            "laundry": [
+                "l1",
+                "l2"
+            ],
+            "allergens": [
+                "a2",
+                "a4"
+            ]
+        },
+        "name": "help"
+    },
+    "help5": {
+        "info": {
+            "manufacturer": "Inc1",
+            "price": "2200",
+            "laundry": [
+                "l1",
+                "l3"
+            ],
+            "allergens": [
+                "a3",
+                "a4"
+            ]
+        },
+        "name": "help5"
+    }
+}
