@@ -8,7 +8,7 @@ JSON 파일을 수정하고 불러오는 함수를 정리한 모듈
 JSONTOOL은 ProductDatabase 인스턴스를 이용하여 JSON 파일을 수정 및 불러오기르 합니다. 사용은 다음과 같이 합니다.
 ```
 import JSONTOOL
-mainDB = ProductDatabase("DB.json")
+mainDB = JSONTOOL.ProductDatabase("DB.json")
 ```
 ProductDatabase의 생성자는 사용하 JSON 파일명을 매개변수로 받습니다.
 
