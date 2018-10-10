@@ -14,7 +14,7 @@ ProductDatabase의 생성자는 사용하 JSON 파일명을 매개변수로 받�
 
 ### 제품 정보 열람
 
-데이터베이스에 저장되어 있는 정보를 열람하 수 있습니다.
+데이터베이스에 저장되어 있는 정보를 열람할 수 있습니다.
 
 **제품을 dict 객체로 받아오기**
 ```
@@ -58,7 +58,7 @@ productname1, companyname1, price1, code1;code2;code3, allergen1;allergen2;aller
 **단일 삭제**
 ```
 mainDB.removeitem("productname")
-
+```
 __item을 만들어주는 함수도 모듈에 포함되어 있습니다.__
 
 
